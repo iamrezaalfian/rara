@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/gift.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/confirmation.css" />
+
+    <!-- Document Title -->
+    <title>Confirmation</title>
+  </head>
+
+  <body>
+    <!-- Background -->
+    <div class="night"></div>
+
+    <!-- Confirmation Text -->
+    <div
+      style="
+        position: absolute;
+        top: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      "
+    >
+      <h2 style="color: white">rara pacarnya eca?</h2>
+
+      <!-- Buttons for Yes and No -->
+      <div>
+        <button id="yesButton" class="btn" onclick="confirmYes()">Yes</button>
+        <button id="noButton" class="btn" onclick="confirmNo()">No</button>
+      </div>
+    </div>
+
+    <script src="js/confirmation.js"></script>
+  </body>
+</html>
